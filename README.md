@@ -1,4 +1,4 @@
-# book-theme
+# book-service
 
 ## Project setup
 ```
