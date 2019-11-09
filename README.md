@@ -1,5 +1,6 @@
-# book-service
+# WebProject2
 
+![](src/assets/screencapture-localhost-8080-home-2019-11-09-05_21_39.png?raw=true)
 ## Project setup
 ```
 npm install
