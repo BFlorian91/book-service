@@ -1,29 +1,40 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-    <div class="alert alert-primary" role="alert">A simple primary alert—check it out!</div>
+    <NavBar />
+    <Home />
+    <NewsLetter />
+    <Boxes />
+    <About />
+    <Authors />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import NavBar from '@/components/NavBar'
+import Home from '@/components/Home'
+import NewsLetter from '@/components/NewsLetter'
+import Boxes from '@/components/Boxes'
+import About from '@/components/About'
+import Authors from '@/components/Authors'
 
 export default {
   name: "app",
   components: {
-    HelloWorld
+    NavBar,
+    Home,
+    NewsLetter,
+    Boxes,
+    About,
+    Authors,
   }
 };
 </script>
 
 <style>
-#app {
+/* #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
-}
+} */
 </style>
