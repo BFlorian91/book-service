@@ -12,16 +12,16 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6" v-for="(user, index) in users" :key="index">
           <div class="card">
             <div class="card-body">
               <img
-                src="@/assets/img/person1.jpg"
-                alt="person1"
+                src="@/assets/img/me.jpeg"
+                alt="me"
                 class="img-fluid rounded-circle w-50 mb-3"
               />
-              <h3>Susan Williams</h3>
-              <h5 class="job">Lead Writer</h5>
+              <h3>{{ user.name }}</h3>
+              <h5 class="job">{{ user.job }}</h5>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas unde placeat voluptatem voluptate expedita magni,
                 modi.
@@ -52,7 +52,18 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data () {
+    return {
+      users: [
+        { name: "Florian Beaumont", job: "CEO", photo: "person1.jpg" },
+        { name: "Florian Beaumont", job: "Lead-developer", photo: "@/assets/img/Designer.jpg" },
+        { name: "Florian Beaumont", job: "Front-developer", photo: "@/assets/img/Lead.jpg" },
+        { name: "Florian Beaumont", job: "Designer", photo: "@/assets/img/CEO.jpg" },
+      ]
+    }
+  }
+};
 </script>
 
 <style>
