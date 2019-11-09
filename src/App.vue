@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="home">
     <NavBar />
     <Home />
     <NewsLetter />
