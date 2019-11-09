@@ -43,7 +43,9 @@ body {
   img {
     margin-top: -50px;
   }
-
+  .fab {
+    color: $primary;
+  }
   .card:hover {
     background: $primary;
     color: #fff;
@@ -51,11 +53,13 @@ body {
     .job {
       color: $teal;
     }
+
+    .fab {
+      color: #fff;
+    }
   }
 
-  .fab {
-    color: #fff;
-  }
+
 
   .job {
     color: $gray-600;

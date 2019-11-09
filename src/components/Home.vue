@@ -1,6 +1,6 @@
 <template>
   <section id="showcase" class="py-5">
-    <div class="primary-overlay text-white">
+    <div id="home" class="primary-overlay text-white">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 text-center">

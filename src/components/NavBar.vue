@@ -33,10 +33,10 @@ export default {
   data() {
     return {
       items: {
-        Home: "home-section",
-        About: "about-section",
-        "Meet the Author": "author-section",
-        Contact: "contact-section"
+        Home: "home",
+        About: "about",
+        "Meet the Author": "authors",
+        Contact: "contact"
       }
     };
   }

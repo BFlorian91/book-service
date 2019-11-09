@@ -7,6 +7,7 @@
     <About />
     <Authors />
     <Contact />
+    <Footer />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import Boxes from '@/components/Boxes'
 import About from '@/components/About'
 import Authors from '@/components/Authors'
 import Contact from '@/components/Contact'
+import Footer from '@/components/Footer'
 
 export default {
   name: "app",
@@ -29,6 +31,7 @@ export default {
     About,
     Authors,
     Contact,
+    Footer
   }
 };
 </script>
