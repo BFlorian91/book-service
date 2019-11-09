@@ -6,6 +6,7 @@
     <Boxes />
     <About />
     <Authors />
+    <Contact />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import NewsLetter from '@/components/NewsLetter'
 import Boxes from '@/components/Boxes'
 import About from '@/components/About'
 import Authors from '@/components/Authors'
+import Contact from '@/components/Contact'
 
 export default {
   name: "app",
@@ -26,6 +28,7 @@ export default {
     Boxes,
     About,
     Authors,
+    Contact,
   }
 };
 </script>
